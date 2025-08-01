@@ -1,0 +1,17 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"client": "tsx src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"ts-node": "^10.9.2",
+		"tsx": "^4.20.3",
+		"typescript": "^5.8.3"
+	}
+}

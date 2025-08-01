@@ -1,0 +1,27 @@
+{
+	"name": "wordle-game",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"cli": "nodemon --exec ts-node src/console/index.ts",
+		"server": "nodemon --exec ts-node src/index.ts",
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@types/node": "^24.1.0",
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.3"
+	}
+}
